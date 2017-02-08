@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1F7A2A7F1E4B04190015262E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A2A7E1E4B04190015262E /* main.m */; };
-		1F7A2A821E4B04190015262E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A2A811E4B04190015262E /* AppDelegate.m */; };
-		1F7A2A851E4B04190015262E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A2A841E4B04190015262E /* ViewController.m */; };
 		1F7A2A881E4B04190015262E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A2A861E4B04190015262E /* Main.storyboard */; };
 		1F7A2A8A1E4B04190015262E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A2A891E4B04190015262E /* Assets.xcassets */; };
 		1F7A2A8D1E4B04190015262E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A2A8B1E4B04190015262E /* LaunchScreen.storyboard */; };
+		1F7A2A9A1E4B043D0015262E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A2A951E4B043D0015262E /* AppDelegate.m */; };
+		1F7A2A9B1E4B043D0015262E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A2A971E4B043D0015262E /* ViewController.m */; };
+		1F7A2A9C1E4B043D0015262E /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A2A991E4B043D0015262E /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F7A2A7A1E4B04190015262E /* InstaJPEG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaJPEG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F7A2A7E1E4B04190015262E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F7A2A801E4B04190015262E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1F7A2A811E4B04190015262E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1F7A2A831E4B04190015262E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1F7A2A841E4B04190015262E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1F7A2A871E4B04190015262E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F7A2A891E4B04190015262E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F7A2A8C1E4B04190015262E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F7A2A8E1E4B04190015262E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7A2A941E4B043D0015262E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F7A2A951E4B043D0015262E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F7A2A961E4B043D0015262E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F7A2A971E4B043D0015262E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F7A2A981E4B043D0015262E /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		1F7A2A991E4B043D0015262E /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +61,12 @@
 		1F7A2A7C1E4B04190015262E /* InstaJPEG */ = {
 			isa = PBXGroup;
 			children = (
-				1F7A2A801E4B04190015262E /* AppDelegate.h */,
-				1F7A2A811E4B04190015262E /* AppDelegate.m */,
-				1F7A2A831E4B04190015262E /* ViewController.h */,
-				1F7A2A841E4B04190015262E /* ViewController.m */,
+				1F7A2A941E4B043D0015262E /* AppDelegate.h */,
+				1F7A2A951E4B043D0015262E /* AppDelegate.m */,
+				1F7A2A961E4B043D0015262E /* ViewController.h */,
+				1F7A2A971E4B043D0015262E /* ViewController.m */,
+				1F7A2A981E4B043D0015262E /* CollectionViewCell.h */,
+				1F7A2A991E4B043D0015262E /* CollectionViewCell.m */,
 				1F7A2A861E4B04190015262E /* Main.storyboard */,
 				1F7A2A891E4B04190015262E /* Assets.xcassets */,
 				1F7A2A8B1E4B04190015262E /* LaunchScreen.storyboard */,
@@ -110,6 +115,7 @@
 				TargetAttributes = {
 					1F7A2A791E4B04190015262E = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = X33N5HMJNJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,8 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F7A2A851E4B04190015262E /* ViewController.m in Sources */,
-				1F7A2A821E4B04190015262E /* AppDelegate.m in Sources */,
+				1F7A2A9B1E4B043D0015262E /* ViewController.m in Sources */,
+				1F7A2A9A1E4B043D0015262E /* AppDelegate.m in Sources */,
+				1F7A2A9C1E4B043D0015262E /* CollectionViewCell.m in Sources */,
 				1F7A2A7F1E4B04190015262E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +277,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X33N5HMJNJ;
 				INFOPLIST_FILE = InstaJPEG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SiddharthPatel.InstaJPEG;
@@ -281,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X33N5HMJNJ;
 				INFOPLIST_FILE = InstaJPEG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SiddharthPatel.InstaJPEG;

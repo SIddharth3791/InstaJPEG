@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,7 +21,43 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="InstaJEPG" translatesAutoresizingMaskIntoConstraints="NO" id="OcU-US-bSX">
+                                <rect key="frame" x="0.0" y="87" width="375" height="580"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="InstaJPEG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pje-bH-N3X">
+                                <rect key="frame" x="71" y="28" width="233" height="35"/>
+                                <color key="backgroundColor" red="0.99881750349999998" green="0.1658159816" blue="0.1013942483" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="imX-gv-rzz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2017 Siddharth Patel. All rights reserved." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P8s-Jd-Gb6">
+                                <rect key="frame" x="0.0" y="646" width="375" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gxw-V3-rnZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.87450980392156863" green="0.85098039215686272" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="OcU-US-bSX" firstAttribute="trailing" secondItem="P8s-Jd-Gb6" secondAttribute="trailing" id="6dp-1X-pW8"/>
+                            <constraint firstItem="OcU-US-bSX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Cf1-dl-hu4"/>
+                            <constraint firstItem="pje-bH-N3X" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="55" id="Epu-Hk-gnZ"/>
+                            <constraint firstItem="pje-bH-N3X" firstAttribute="centerX" secondItem="P8s-Jd-Gb6" secondAttribute="centerX" id="PTN-zh-ZSN"/>
+                            <constraint firstItem="P8s-Jd-Gb6" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="Tnn-KJ-eTD"/>
+                            <constraint firstAttribute="trailing" secondItem="OcU-US-bSX" secondAttribute="trailing" id="gq5-Tx-Vk9"/>
+                            <constraint firstItem="pje-bH-N3X" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="8" symbolic="YES" id="haK-rf-DNQ"/>
+                            <constraint firstItem="OcU-US-bSX" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="qGE-I2-j0N"/>
+                            <constraint firstItem="OcU-US-bSX" firstAttribute="top" secondItem="pje-bH-N3X" secondAttribute="bottom" constant="24" id="sZc-Bk-CLJ"/>
+                            <constraint firstItem="OcU-US-bSX" firstAttribute="leading" secondItem="P8s-Jd-Gb6" secondAttribute="leading" id="ww9-Qs-aES"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +65,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="InstaJEPG" width="1440" height="900"/>
+    </resources>
 </document>

@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  InstaJPEG
+//  InstaJEPG
 //
-//  Created by Siddharth Patel on 2/8/17.
+//  Created by Siddharth Patel on 2/7/17.
 //  Copyright © 2017 Siddharth Patel. All rights reserved.
 //
 
