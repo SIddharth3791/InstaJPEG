@@ -1,9 +1,9 @@
 //
 //  CollectionViewCell.m
-//  My Instagram App
+//  InstaJEPG
 //
-//  Created by Vivian Aranha on 2/18/16.
-//  Copyright © 2016 Vivian Aranha. All rights reserved.
+//  Created by Siddharth Patel on 2/7/17.
+//  Copyright © 2017 Siddharth Patel. All rights reserved.
 //
 
 #import "CollectionViewCell.h"
